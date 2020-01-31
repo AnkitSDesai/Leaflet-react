@@ -1,0 +1,26 @@
+{
+  "name": "leaflet-react",
+  "version": "0.0.0",
+  "description": "Building interactive maps using Leaflet and React.\n\nThis is an simple example to show how existing leaflet API's can used in simple component abstractions.\n\nUsing the current context documentation, we expose the L.Map instance to any child that would request access to it.",
+  "keywords": [
+    "leaflet",
+    "react",
+    "maps"
+  ],
+  "homepage": "https://codesandbox.io/s/D9PKyg3Mq",
+  "main": "index.js",
+  "dependencies": {
+    "leaflet": "1.4.0",
+    "react": "16.7.0",
+    "react-dom": "16.7.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
